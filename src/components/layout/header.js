@@ -57,7 +57,7 @@ const Header = ({ onSidenavOpen, navigation }) => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" className={classes.appBar}>
+      <AppBar position="fixed" className={classes.appBar}>
         <Toolbar style={{ height: 100 }}>
           <div className={classes.logoContainer}>
             <Img fixed={data.file.childImageSharp.fixed} />

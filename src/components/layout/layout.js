@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import Header from "./header"
 import { useMediaQuery } from "@material-ui/core"
 import SideNav from "./sidenav"
+import Footer from "./footer"
 
 const navigation = [
   {
@@ -57,7 +58,10 @@ const Layout = ({ children }) => {
     <>
       <Header onSidenavOpen={handleSidenavOpen} navigation={navigation} />
       <SideNav navigation={navigation} open={shouldOpenSidenav} onClose={handleSidenavClose} />
-      {children}
+      <div style={{ marginTop: 100 }}>
+        {children}
+      </div>
+      <Footer />
     </>
   )
 }

@@ -1,4 +1,4 @@
-import { createMuiTheme } from "@material-ui/core";
+import { createMuiTheme, responsiveFontSizes } from "@material-ui/core";
 import palette from './palette';
 import typography from './typography';
 
@@ -7,4 +7,4 @@ const theme = createMuiTheme({
     typography,
   });
 
-export default theme;
+export default responsiveFontSizes(theme);
