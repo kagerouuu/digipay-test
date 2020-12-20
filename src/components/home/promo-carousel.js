@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
     container: {
-        '& .Carousel-indicators-14': {
+        '&>:last-child': {
             position: 'absolute',
             bottom: 10
         }
