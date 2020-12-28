@@ -55,14 +55,14 @@ const Layout = ({ children }) => {
   const shouldOpenSidenav = isMobile ? openSidenav : false;
 
   return (
-    <>
+    <div style={{overflowX: 'hidden'}}>
       <Header onSidenavOpen={handleSidenavOpen} navigation={navigation} />
       <SideNav navigation={navigation} open={shouldOpenSidenav} onClose={handleSidenavClose} />
       <div style={{ marginTop: 100 }}>
         {children}
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 

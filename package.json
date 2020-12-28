@@ -7,6 +7,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
+    "animate.css": "^4.1.1",
     "fontsource-exo-2": "^3.1.6",
     "gatsby": "^2.29.0",
     "gatsby-image": "^2.8.0",
@@ -20,6 +21,7 @@
     "gatsby-transformer-sharp": "^2.9.0",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
     "react-material-ui-carousel": "^2.1.1"

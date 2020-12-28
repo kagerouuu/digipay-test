@@ -6,6 +6,7 @@ import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
     container: {
+        maxWidth: '100%',
         '&>:last-child': {
             position: 'absolute',
             bottom: 10

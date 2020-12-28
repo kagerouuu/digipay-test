@@ -1,4 +1,4 @@
-import { Collapse, Grid, Hidden, makeStyles, Paper, Typography, useMediaQuery, useTheme } from '@material-ui/core';
+import { Grid, Hidden, makeStyles, Typography, useMediaQuery, useTheme } from '@material-ui/core';
 import { Link } from 'gatsby-theme-material-ui';
 import React, { useEffect, useState } from 'react';
 import BillsPayment from '../../images/icons/bills-payment.svg'
